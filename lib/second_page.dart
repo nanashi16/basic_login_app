@@ -23,9 +23,9 @@ class _SecondPageState extends State<SecondPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Welcome'),
-        backgroundColor: Colors.blueGrey[700],
+        backgroundColor: const Color.fromARGB(255, 62, 106, 126),
       ),
-      backgroundColor: Colors.grey[800],
+      backgroundColor: const Color.fromARGB(255, 75, 69, 69),
       body: Center(
         child: Text(
           'Welcome, ${widget.username}!',
